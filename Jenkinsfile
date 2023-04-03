@@ -4,7 +4,6 @@ pipeline{
         stage('1-clone code or build'){
             steps{
                 sh 'du -h'
-                sh'os-release'
                 }
          }
          stage('2-memorycheck'){

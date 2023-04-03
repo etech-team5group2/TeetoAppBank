@@ -9,7 +9,7 @@ pipeline{
          stage('2-memorycheck'){
             steps{
                 sh 'free -g'
-                sh 'cat etc/os-release'
+      
             }
          }
          stage('3-welcomepage'){
